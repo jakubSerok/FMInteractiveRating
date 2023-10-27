@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    border-radius: 8%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;    
+    padding: 30px;
+}
+.imgBox{
+    border-radius: 50%;
+    background-color: #3a4655;;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgBox img{
+    width: 18px;
+    height: 18px;
+}
+.box h1{
+    color: white;
+    font-size: 27px;
+    padding-top: 40px;
+    font-weight: 700;
+}
+.box small{
+    line-height: 1.6;
+    color: hsl(217, 12%, 63%);
+    padding-top: 12px;
+    font-size: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.buttons button{
+    color: hsl(217, 12%, 63%);
+    background-color: #3a4655;
+    font-size: 16px;
+    font-weight: 700;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: none;
+}
+.buttons button:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.buttons button.selected{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.box .submit{   
+    display: block;
+    border-style: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+    height: 45px;    
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.box .submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    border-radius: 8%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;    
+    padding: 30px;
+    align-items: center;
+}
+.box2 img{
+    width: 180px;
+    height: 130px;
+    padding-bottom: 30px;
+}
+.box2 .selectedBox{
+    text-align: center;
+    display: block;    
+    border-style: none;   
+    font-weight: 400;
+    width: 55%; 
+    height: 25px;
+    border-radius: 50px;
+    background-color: #3a4655;
+    color: hsl(25, 97%, 53%);
+}
+.box2 h1{
+    color: white;
+    font-size: 27px;
+    padding-top: 40px;
+    font-weight: 700;
+}
+.box2 small{
+    line-height: 1.6;
+    color: hsl(217, 12%, 63%);
+    padding-top: 12px;
+    font-size: 15px;
+    text-align: center;
+}
+.d-none{
+    display: none;
+}
